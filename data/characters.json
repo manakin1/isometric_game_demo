@@ -1,0 +1,9 @@
+{ "characters" : [
+
+    { "name" : "Dude 1",
+      "resource" : "assets/images/pocketor1.png" },
+
+    { "name" : "Dude 2",
+        "resource" : "assets/images/pocketor2.png" }
+
+] }

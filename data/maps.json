@@ -1,0 +1,46 @@
+{ "maps" : [
+
+    { "name" : "Test Map",
+      "id" : 0,
+      "resource" : "assets/images/floorTiles.png",
+      "tilewidth" : 160,
+      "tileheight" : 93,
+      "startposition" : [ 3, 5 ],
+      "background": "",
+      "foreground" : "",
+      "tilemap" : [
+                    [ 1, 2, 1, 2, 1, 2, 1 ],
+                    [ 2, 1, 2, 1, 2, 1, 2 ],
+                    [ 1, 2, 1, 2, 1, 2, 1 ],
+                    [ 2, 1, 2, 1, 2, 1, 2 ],
+                    [ 1, 2, 1, 2, 1, 2, 1 ],
+                    [ 2, 1, 2, 1, 2, 1, 2 ],
+                    [ 1, 2, 1, 2, 1, 2, 1 ]
+                  ],
+      "objectmap" : [
+
+                      { "position" : [ 0, 0 ],
+                        "resource" : "assets/images/oranges_1.png"
+                      },
+
+                      { "position" : [ 5, 3 ],
+                        "resource" : "assets/images/oranges_1.png"
+                      },
+
+                      { "position" : [ 2, 2 ],
+                        "resource" : "assets/images/apples_large_1.png"
+                      },
+
+                      { "position" : [ 0, 5 ],
+                        "resource" : "assets/images/apples.png"
+                      },
+
+                      { "position" : [ 6, 0 ],
+                        "resource" : "assets/images/apples.png"
+                      }
+
+                    ]
+    }
+
+
+] }
